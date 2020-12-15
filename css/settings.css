@@ -36,7 +36,7 @@
 }
 
 .space-db--40 {
-  margin-bottom: -40px;
+  margin-bottom: -2.5rem;
 }
 
 .space-db--45 {
@@ -160,7 +160,7 @@
 }
 
 .space-dt--40 {
-  margin-top: -40px;
+  margin-top: -2.5rem;
 }
 
 .space-dt--45 {
@@ -350,13 +350,13 @@
 
 @media (min-width: 576px) {
   .space-dt-sm-40 {
-    margin-top: -40px !important;
+    margin-top: -2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .space-dt-sm-40 {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
 }
 
@@ -842,13 +842,13 @@
 
 @media (min-width: 768px) {
   .space-dt-md-40 {
-    margin-top: -40px !important;
+    margin-top: -2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .space-dt-md-40 {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
 }
 
@@ -1334,13 +1334,13 @@
 
 @media (min-width: 992px) {
   .space-dt-lg-40 {
-    margin-top: -40px !important;
+    margin-top: -2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .space-dt-lg-40 {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
 }
 
@@ -1826,13 +1826,13 @@
 
 @media (min-width: 1200px) {
   .space-dt-xl-40 {
-    margin-top: -40px !important;
+    margin-top: -2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .space-dt-xl-40 {
-    margin-top: -40px;
+    margin-top: -2.5rem;
   }
 }
 
@@ -2319,13 +2319,13 @@
 
 @media (min-width: 576px) {
   .space-db-sm-40 {
-    margin-bottom: -40px !important;
+    margin-bottom: -2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .space-db-sm-40 {
-    margin-bottom: -40px;
+    margin-bottom: -2.5rem;
   }
 }
 
@@ -2811,13 +2811,13 @@
 
 @media (min-width: 768px) {
   .space-db-md-40 {
-    margin-bottom: -40px !important;
+    margin-bottom: -2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .space-db-md-40 {
-    margin-bottom: -40px;
+    margin-bottom: -2.5rem;
   }
 }
 
@@ -3303,13 +3303,13 @@
 
 @media (min-width: 992px) {
   .space-db-lg-40 {
-    margin-bottom: -40px !important;
+    margin-bottom: -2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .space-db-lg-40 {
-    margin-bottom: -40px;
+    margin-bottom: -2.5rem;
   }
 }
 
@@ -3795,13 +3795,13 @@
 
 @media (min-width: 1200px) {
   .space-db-xl-40 {
-    margin-bottom: -40px !important;
+    margin-bottom: -2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .space-db-xl-40 {
-    margin-bottom: -40px;
+    margin-bottom: -2.5rem;
   }
 }
 
@@ -4226,7 +4226,7 @@
 }
 
 .pt--40 {
-  padding-top: 40px !important;
+  padding-top: 2.5rem !important;
 }
 
 .pt--45 {
@@ -4391,7 +4391,7 @@
 }
 
 .pb--40 {
-  padding-bottom: 40px !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .pb--45 {
@@ -4556,7 +4556,7 @@
 }
 
 .pl--40 {
-  padding-left: 40px !important;
+  padding-left: 2.5rem !important;
 }
 
 .pl--45 {
@@ -4721,7 +4721,7 @@
 }
 
 .pr--40 {
-  padding-right: 40px !important;
+  padding-right: 2.5rem !important;
 }
 
 .pr--45 {
@@ -4894,8 +4894,8 @@
 }
 
 .px--40 {
-  padding-left: 40px !important;
-  padding-right: 40px !important;
+  padding-left: 2.5rem !important;
+  padding-right: 2.5rem !important;
 }
 
 .px--45 {
@@ -5100,8 +5100,8 @@
 }
 
 .py--40 {
-  padding-top: 40px !important;
-  padding-bottom: 40px !important;
+  padding-top: 2.5rem !important;
+  padding-bottom: 2.5rem !important;
 }
 
 .py--45 {
@@ -5301,7 +5301,7 @@
 }
 
 .mt--40 {
-  margin-top: 40px !important;
+  margin-top: 2.5rem !important;
 }
 
 .mt--45 {
@@ -5462,7 +5462,7 @@
 }
 
 .mb--40 {
-  margin-bottom: 40px !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .mb--45 {
@@ -5623,7 +5623,7 @@
 }
 
 .ml--40 {
-  margin-left: 40px !important;
+  margin-left: 2.5rem !important;
 }
 
 .ml--45 {
@@ -5784,7 +5784,7 @@
 }
 
 .mr--40 {
-  margin-right: 40px !important;
+  margin-right: 2.5rem !important;
 }
 
 .mr--45 {
@@ -5957,8 +5957,8 @@
 }
 
 .mx--40 {
-  margin-left: 40px !important;
-  margin-right: 40px !important;
+  margin-left: 2.5rem !important;
+  margin-right: 2.5rem !important;
 }
 
 .mx--45 {
@@ -6163,8 +6163,8 @@
 }
 
 .my--40 {
-  margin-top: 40px !important;
-  margin-bottom: 40px !important;
+  margin-top: 2.5rem !important;
+  margin-bottom: 2.5rem !important;
 }
 
 .my--45 {
@@ -6429,13 +6429,13 @@
 
 @media (min-width: 576px) {
   .pt-sm--40 {
-    padding-top: 40px !important;
+    padding-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .pt-sm--40 {
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
@@ -6921,13 +6921,13 @@
 
 @media (min-width: 768px) {
   .pt-md--40 {
-    padding-top: 40px !important;
+    padding-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .pt-md--40 {
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
@@ -7413,13 +7413,13 @@
 
 @media (min-width: 992px) {
   .pt-lg--40 {
-    padding-top: 40px !important;
+    padding-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .pt-lg--40 {
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
@@ -7905,13 +7905,13 @@
 
 @media (min-width: 1200px) {
   .pt-xl--40 {
-    padding-top: 40px !important;
+    padding-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .pt-xl--40 {
-    padding-top: 40px;
+    padding-top: 2.5rem;
   }
 }
 
@@ -8398,13 +8398,13 @@
 
 @media (min-width: 576px) {
   .pb-sm--40 {
-    padding-bottom: 40px !important;
+    padding-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .pb-sm--40 {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -8890,13 +8890,13 @@
 
 @media (min-width: 768px) {
   .pb-md--40 {
-    padding-bottom: 40px !important;
+    padding-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .pb-md--40 {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -9382,13 +9382,13 @@
 
 @media (min-width: 992px) {
   .pb-lg--40 {
-    padding-bottom: 40px !important;
+    padding-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .pb-lg--40 {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -9874,13 +9874,13 @@
 
 @media (min-width: 1200px) {
   .pb-xl--40 {
-    padding-bottom: 40px !important;
+    padding-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .pb-xl--40 {
-    padding-bottom: 40px;
+    padding-bottom: 2.5rem;
   }
 }
 
@@ -10367,13 +10367,13 @@
 
 @media (min-width: 576px) {
   .pl-sm--40 {
-    padding-left: 40px !important;
+    padding-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .pl-sm--40 {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
 }
 
@@ -10859,13 +10859,13 @@
 
 @media (min-width: 768px) {
   .pl-md--40 {
-    padding-left: 40px !important;
+    padding-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .pl-md--40 {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
 }
 
@@ -11351,13 +11351,13 @@
 
 @media (min-width: 992px) {
   .pl-lg--40 {
-    padding-left: 40px !important;
+    padding-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .pl-lg--40 {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
 }
 
@@ -11843,13 +11843,13 @@
 
 @media (min-width: 1200px) {
   .pl-xl--40 {
-    padding-left: 40px !important;
+    padding-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .pl-xl--40 {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
 }
 
@@ -12336,13 +12336,13 @@
 
 @media (min-width: 576px) {
   .pr-sm--40 {
-    padding-right: 40px !important;
+    padding-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .pr-sm--40 {
-    padding-right: 40px;
+    padding-right: 2.5rem;
   }
 }
 
@@ -12828,13 +12828,13 @@
 
 @media (min-width: 768px) {
   .pr-md--40 {
-    padding-right: 40px !important;
+    padding-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .pr-md--40 {
-    padding-right: 40px;
+    padding-right: 2.5rem;
   }
 }
 
@@ -13320,13 +13320,13 @@
 
 @media (min-width: 992px) {
   .pr-lg--40 {
-    padding-right: 40px !important;
+    padding-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .pr-lg--40 {
-    padding-right: 40px;
+    padding-right: 2.5rem;
   }
 }
 
@@ -13816,13 +13816,13 @@
 
 @media (min-width: 576px) {
   .mt-sm--40 {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .mt-sm--40 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -14308,13 +14308,13 @@
 
 @media (min-width: 768px) {
   .mt-md--40 {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .mt-md--40 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -14800,13 +14800,13 @@
 
 @media (min-width: 992px) {
   .mt-lg--40 {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .mt-lg--40 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -15292,13 +15292,13 @@
 
 @media (min-width: 1200px) {
   .mt-xl--40 {
-    margin-top: 40px !important;
+    margin-top: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .mt-xl--40 {
-    margin-top: 40px;
+    margin-top: 2.5rem;
   }
 }
 
@@ -15785,13 +15785,13 @@
 
 @media (min-width: 576px) {
   .mb-sm--40 {
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .mb-sm--40 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -16277,13 +16277,13 @@
 
 @media (min-width: 768px) {
   .mb-md--40 {
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .mb-md--40 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -16769,13 +16769,13 @@
 
 @media (min-width: 992px) {
   .mb-lg--40 {
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .mb-lg--40 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -17261,13 +17261,13 @@
 
 @media (min-width: 1200px) {
   .mb-xl--40 {
-    margin-bottom: 40px !important;
+    margin-bottom: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .mb-xl--40 {
-    margin-bottom: 40px;
+    margin-bottom: 2.5rem;
   }
 }
 
@@ -17754,13 +17754,13 @@
 
 @media (min-width: 576px) {
   .ml-sm--40 {
-    margin-left: 40px !important;
+    margin-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .ml-sm--40 {
-    margin-left: 40px;
+    margin-left: 2.5rem;
   }
 }
 
@@ -18246,13 +18246,13 @@
 
 @media (min-width: 768px) {
   .ml-md--40 {
-    margin-left: 40px !important;
+    margin-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .ml-md--40 {
-    margin-left: 40px;
+    margin-left: 2.5rem;
   }
 }
 
@@ -18738,13 +18738,13 @@
 
 @media (min-width: 992px) {
   .ml-lg--40 {
-    margin-left: 40px !important;
+    margin-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .ml-lg--40 {
-    margin-left: 40px;
+    margin-left: 2.5rem;
   }
 }
 
@@ -19230,13 +19230,13 @@
 
 @media (min-width: 1200px) {
   .ml-xl--40 {
-    margin-left: 40px !important;
+    margin-left: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .ml-xl--40 {
-    margin-left: 40px;
+    margin-left: 2.5rem;
   }
 }
 
@@ -19723,13 +19723,13 @@
 
 @media (min-width: 576px) {
   .mr-sm--40 {
-    margin-right: 40px !important;
+    margin-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 768px) {
   .mr-sm--40 {
-    margin-right: 40px;
+    margin-right: 2.5rem;
   }
 }
 
@@ -20215,13 +20215,13 @@
 
 @media (min-width: 768px) {
   .mr-md--40 {
-    margin-right: 40px !important;
+    margin-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 992px) {
   .mr-md--40 {
-    margin-right: 40px;
+    margin-right: 2.5rem;
   }
 }
 
@@ -20707,13 +20707,13 @@
 
 @media (min-width: 992px) {
   .mr-lg--40 {
-    margin-right: 40px !important;
+    margin-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 1200px) {
   .mr-lg--40 {
-    margin-right: 40px;
+    margin-right: 2.5rem;
   }
 }
 
@@ -21199,13 +21199,13 @@
 
 @media (min-width: 1200px) {
   .mr-xl--40 {
-    margin-right: 40px !important;
+    margin-right: 2.5rem !important;
   }
 }
 
 @media (min-width: 1600px) {
   .mr-xl--40 {
-    margin-right: 40px;
+    margin-right: 2.5rem;
   }
 }
 
@@ -21797,7 +21797,7 @@ input[type="number"] {
       -ms-flex-pack: center;
           justify-content: center;
   height: 50px;
-  width: 209px
+  width: 13.0625rem
 }
 
 .btn--primary {
@@ -21867,7 +21867,7 @@ input[type="number"] {
 }
 
 .btn-sm {
-  height: 40px;
+  height: 2.5rem;
   font-size: 16px;
   letter-spacing: -1px;
   min-width: 137px;
@@ -21902,7 +21902,7 @@ input[type="number"] {
 
 .btn-lg {
   height: 60px;
-  min-width: 209px;
+  min-width: 13.0625rem;
   letter-spacing: -0.9px;
   font-size: 18px;
 }

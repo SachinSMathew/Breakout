@@ -112,7 +112,7 @@
         font-size: 38px;
         font-weight: 600;
         letter-spacing: -2px;
-        line-height: 48px;
+        line-height: 3rem;
         margin-bottom: 20px;
     }
     p{
@@ -151,12 +151,12 @@
 
 @mixin btn-lg{
     height: 60px;
-    min-width: 209px;
+    min-width: 13.0625rem;
     letter-spacing: -0.9px;
     font-size: 18px;
 }
 @mixin btn-sm{
-    height: 40px;
+    height: 2.5rem;
     font-size: 16px;
     letter-spacing: -1px;
     min-width: 137px;
