@@ -2,6 +2,12 @@
 /*=====================================*/
 /*-- :::: Space Decrease :::: --*/
 /*=====================================*/
+@font-face {
+  font-family: gilroy;
+  src: url('../fonts/Gilroy-ExtraBold.otf');
+}
+
+
 .space-db--0 {
   margin-bottom: 0px;
 }
@@ -22001,10 +22007,10 @@
 
 .hero-content h2 {
   color: #1f1f1f;
-  font-family: 'Manrope', sans-serif;
-  font-size: 38px;
-  font-weight: 700;
-  line-height: 45px;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 70px;
   letter-spacing: -2px;
   margin-bottom: 20px;
 }
@@ -22383,11 +22389,10 @@
 
 .content-right-content h2 {
   color: #ffffff;
-  font-family: 'Manrope', sans-serif;
-  font-size: 32px;
-  font-weight: 700;
-  letter-spacing: -.5px;
-  line-height: 45px;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
   margin-bottom: 20px;
 }
 
@@ -22553,11 +22558,11 @@
 
 .content-left-content h2 {
   color: #1f1f1f;
-  font-family: 'Manrope', sans-serif;
-  font-size: 35px;
-  font-weight: 700;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
   letter-spacing: -2.53px;
-  line-height: 45px;
   margin-bottom: 15px;
 }
 
@@ -22702,10 +22707,10 @@
 
 .testimonial-content h2 {
   color: #1f1f1f;
-  font-family: 'Manrope', sans-serif;
-  font-size: 35px;
-  line-height: 45px;
-  font-weight: 700;
+  font-family: gilroy, sans-serif;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 56px;
   letter-spacing: -2.53px;
   margin-bottom: 10px;
 }
