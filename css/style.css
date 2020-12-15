@@ -250,6 +250,54 @@
   margin-top: -150px;
 }
 
+.shadow{
+  background: "white";
+  position: relative;
+  border-radius: 5px;
+  margin: 10px auto 0;
+}
+.shadow:after{
+  content: '';
+  border-radius: 5px;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #fb009f, #0000ff, #00ff00, #ffff00);
+  background-size: 400%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: animate 20s linear infinite;
+}
+@keyframes animate{
+  0%{
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 300% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
+.hovernow {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hovernow:hover {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+}
+
+.hovernow1 {
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.hovernow1:hover {
+  box-shadow: 0 5px 15px rgba(73, 247, 73, 0.74);
+}
 /*-- Responsive Space Decrease top --*/
 @media (min-width: 576px) {
   .space-dt-sm-0 {
@@ -22262,7 +22310,7 @@
     Content Sectio-01
 //////////////////////////// */
 .content-section-01 {
-  background-color: #14CC60;
+  background: #121212;
   padding: 70px 0;
 }
 
@@ -22570,8 +22618,6 @@
 }
 
 .testimonial-card {
-  -webkit-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
-          box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
   border-radius: 5px;
   background-color: #ffffff;
   padding: 30px 30px 35px 35px;
