@@ -21797,6 +21797,7 @@ input[type="number"] {
       -ms-flex-pack: center;
           justify-content: center;
   height: 50px;
+  width: 209px
 }
 
 .btn--primary {
@@ -21846,8 +21847,8 @@ input[type="number"] {
 }
 
 .btn--white {
-  color: #14CC60;
-  background-color: #ffffff;
+  color: #000000;
+  background-color: #FFC400;
 }
 
 .btn--white:hover {

@@ -250,6 +250,10 @@
   margin-top: -150px;
 }
 
+.shariqueOnMob{
+ display: none;
+}
+
 .shadow{
   background: "white";
   position: relative;
@@ -1293,6 +1297,12 @@
   .space-dt-lg-0 {
     margin-top: 0px;
   }
+}
+
+@media (max-width: 1024px) {
+  .shariqueOnMob{
+    display: initial;
+   }
 }
 
 @media (min-width: 992px) {
