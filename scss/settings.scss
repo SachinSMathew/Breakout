@@ -2,7 +2,7 @@
 @import 'helpers/mixins';
 @import 'helpers/spacings';
 /* Reset CSS */
-@import url('https://fonts.googleapis.com/css?family=Karla:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Manrope:400,400i,700,700i&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -171,7 +171,7 @@ input[type="number"] {
 /* Buttons */
 
 .btn{
-    font-family: 'Karla', sans-serif;
+    font-family: 'Manrope', sans-serif;
     letter-spacing: -1.12px;
     font-weight: 700;
     font-size: 18px;
@@ -203,14 +203,14 @@ input[type="number"] {
     }
     &--orange {
         color: #ffffff;
-        background-color: #fc593b;
+        background-color: #14CC60;
         &:hover {
             color: #fff;
-            background-color: rgba(#fc593b,.8);
+            background-color: rgba(#14CC60,.8);
             
         }
         &.btn-hover-shine{
-            background-color: rgba(#fc593b,1);
+            background-color: rgba(#14CC60,1);
         }
     }
     &-outlined--white {
