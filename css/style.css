@@ -259,36 +259,19 @@
 .shariqueOnMob{
  display: none;
 }
+.shariqueOnDesk{
+  background-image: url('../image/bg.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
-.shadow{
-  background: "white";
-  position: relative;
-  border-radius: 5px;
-  margin: 10px auto 0;
 }
-.shadow:after{
-  content: '';
-  border-radius: 5px;
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  background: linear-gradient(45deg, #fb0094, #0000ff, #00ff00, #ffff00, #fb009f, #0000ff, #00ff00, #ffff00);
-  background-size: 400%;
-  width: calc(100% + 4px);
-  height: calc(100% + 4px);
-  z-index: -1;
-  animation: animate 20s linear infinite;
-}
-@keyframes animate{
-  0%{
-    background-position: 0 0;
-  }
-  50%{
-    background-position: 300% 0;
-  }
-  100%{
-    background-position: 0 0;
-  }
+
+.hero-image{
+  background-image: url('../image/bg0.png');
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  background-size: 20%;
 }
 
 .hovernow {
@@ -297,17 +280,9 @@
 }
 
 .hovernow:hover {
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
 }
 
-.hovernow1 {
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.15);
-  transition: box-shadow 0.3s ease-in-out;
-}
-
-.hovernow1:hover {
-  box-shadow: 0 5px 15px rgba(73, 247, 73, 0.74);
-}
 /*-- Responsive Space Decrease top --*/
 @media (min-width: 576px) {
   .space-dt-sm-0 {
@@ -1309,6 +1284,15 @@
   .shariqueOnMob{
     display: initial;
    }
+  .shariqueOnDesk{
+    background-size: 0%;
+  }
+  .content-wrapper{
+    padding-bottom: 0px !important;
+  }
+  .offset-1 {
+    margin-left: 0%;
+}
 }
 
 @media (min-width: 992px) {
