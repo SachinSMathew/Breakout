@@ -255,23 +255,24 @@
 .space-dt--150 {
   margin-top: -150px;
 }
-.resizeme{
+/* .resizeme{
   width: 118.75rem;
   height: 45.3rem;
   margin-left: 0rem;
-}
+} */
 .section2HeaderMargin{
-  margin-top: 7rem;
+  margin-top: 7.5rem;
 }
 .shariqueOnMob{
  display: none;
 }
-.shariqueOnDesk{
-  background-image: url('../image/bg.png');
-  background-position: -180px -150px;
+.shariqueOnDesk {
+  background-image: url(../image/bg.png);
+  background-position: 1rem 0rem;
   background-repeat: no-repeat;
-  background-size: 100%;
-
+  background-size: cover;
+  overflow: visible;
+  margin-left: -200px 
 }
 .shiftLeft{
   padding-left: 150px;
@@ -290,6 +291,18 @@
 
 .hovernow:hover {
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+}
+
+.features-container{
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px !important;
+  line-height: 28px !important;
+}
+.features-p{
+  margin-left: 40px;
+  text-align: initial;
+  font-size: 16px !important;
 }
 
 /*-- Responsive Space Decrease top --*/
@@ -1305,17 +1318,23 @@
 .hero-image{
   background-size:0%;
 }
-.resizeme{
+/* .resizeme{
   width: 100%;
   height: 100%;
   margin-left: 0rem;
-}
+} */
 .section2HeaderMargin{
   margin-top: 0px;
 }
 .shiftLeft{
   padding-left:0%;
 }
+}
+
+@media (min-width){
+  .container {
+      max-width: 1240px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1280px){
@@ -1346,25 +1365,26 @@
   }
   .shariqueOnDesk{
     background-position: -10px -10px;
-    background-size: 50%;
+    /* background-position: -10rem 0rem; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: visible;
   }
   .section2HeaderMargin{
     margin-top: 0rem;
   }
-  .resizeme{
+  /* .resizeme{
     height: 30rem;
-  }
+  } */
 }
 
 @media (min-width: 1800px){
   .shariqueOnDesk {
     background-image: url(../image/bg.png);
-    background-position: -1rem 0rem;
+    background-position: -10rem 0rem;
     background-repeat: no-repeat;
-    background-size: 80%;
-  }
-  .resizeme{
-    margin-left: 15rem;
+    background-size: cover;
+    overflow: visible;
   }
 }
 
