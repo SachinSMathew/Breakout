@@ -1305,6 +1305,7 @@
    }
   .shariqueOnDesk{
     background-size: 0%;
+    margin-left: 0px;
   }
   .content-wrapper{
     padding-bottom: 0px !important;
@@ -1358,7 +1359,6 @@
   }
   .shariqueOnDesk{
     background-position: -10px -10px;
-    /* background-position: -10rem 0rem; */
     background-repeat: no-repeat;
     background-size: cover;
     overflow: visible;
