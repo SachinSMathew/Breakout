@@ -261,16 +261,16 @@
   margin-left: 0rem;
 }
 .section2HeaderMargin{
-  margin-top: 10rem;
+  margin-top: 7rem;
 }
 .shariqueOnMob{
  display: none;
 }
 .shariqueOnDesk{
   background-image: url('../image/bg.png');
-  background-position: -1.25rem 0rem;
+  background-position: -180px -150px;
   background-repeat: no-repeat;
-  background-size: 81%;
+  background-size: 100%;
 
 }
 .shiftLeft{
@@ -22578,7 +22578,7 @@
 }
 
 .content-left-content h5 {
-  color: #14CC60;
+  color: #000000;
   font-family: 'Manrope', sans-serif;
   font-size: 15px;
   font-weight: 700;
