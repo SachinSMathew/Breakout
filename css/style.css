@@ -1344,7 +1344,16 @@
     justify-content: center;
   }
 }
-
+@media (max-width: 1279px){
+  .feature-area{
+    margin-left: 3.5rem !important;
+  }
+}
+@media (max-width: 1380px) and (min-width: 1280px){
+  .feature-area{
+    margin-left: 150px !important;
+  }
+}
 @media (min-width: 992px) and (max-width: 1279px){
   .hero-image{
     background-size:300px;
@@ -1362,13 +1371,10 @@
     height: 45px;
   }
   .justifyContent{
-    justify-content: flex-end;
+    justify-content: center;
   }
   .form-text{
     font-size: 12px;
-  }
-  .feature-area{
-    margin-left: 3.5rem !important;
   }
   .shiftRightIn{
     justify-content: center;
