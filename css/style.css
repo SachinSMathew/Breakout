@@ -309,6 +309,13 @@
   }
 }
 
+@media (max-width: 800px) {
+  .mb-d-30 {
+    margin-bottom: -30px;
+    padding: 25px;
+  }
+}
+
 @media (min-width: 768px) {
   .space-dt-sm-0 {
     margin-top: 0px;
@@ -1316,7 +1323,9 @@
 .hero-image{
   background-size:0%;
 }
-
+.justifyContent{
+  justify-content: center;
+}
 .section2HeaderMargin{
   margin-top: 0px;
 }
@@ -1330,8 +1339,13 @@
       max-width: 1240px;
   }
 }
+@media (min-width: 1280px){
+  .justifyContent{
+    justify-content: center;
+  }
+}
 
-@media (min-width: 992px) and (max-width: 1280px){
+@media (min-width: 992px) and (max-width: 1279px){
   .hero-image{
     background-size:300px;
   }
@@ -1347,11 +1361,17 @@
     width: 150px;
     height: 45px;
   }
+  .justifyContent{
+    justify-content: flex-end;
+  }
   .form-text{
     font-size: 12px;
   }
   .feature-area{
     margin-left: 3.5rem !important;
+  }
+  .shiftRightIn{
+    justify-content: center;
   }
   .hero-image{
     background-size: 300px;
@@ -22109,6 +22129,13 @@
 }
 }
 
+@media (max-width: 376px){
+  .pricing-card .card-btn .btn {
+    padding: 0px !important;
+    width: 150px !important;
+  }
+}
+
 @media (min-width: 768px) {
   .hero-content h2 {
     font-size: 70px;
@@ -22711,7 +22738,7 @@
 }
 
 .tesimonial-section{
-  padding: 4.375rem 0;
+  padding-top: 4.375rem;
 }
 .masonry-with-columns .testimonial-card {
   margin-bottom: 30px;
@@ -22830,14 +22857,8 @@
         Client
 ///////////////////////////*/
 .client-section {
-  padding: 50px 0;
+  padding-bottom: 50px;
   border-bottom: 1px solid #e5e5e5;
-}
-
-@media (min-width: 768px) {
-  .client-section {
-    padding: 120px 0;
-  }
 }
 
 .client-brand-wrapper {
@@ -23042,6 +23063,7 @@
 
 .pricing-card .card-btn .btn {
   padding: 0 37px;
+  width: 250px;
 }
 
 .pricing-card.active {
