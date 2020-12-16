@@ -1348,6 +1348,12 @@
     background-position: -10px -10px;
     background-size: 50%;
   }
+  .section2HeaderMargin{
+    margin-top: 0rem;
+  }
+  .resizeme{
+    height: 30rem;
+  }
 }
 
 @media (min-width: 1800px){
