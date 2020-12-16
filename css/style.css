@@ -1351,8 +1351,7 @@
     font-size: 12px;
   }
   .feature-area{
-    width: 750px !important;
-    padding-left: 6.5rem !important;
+    margin-left: 3.5rem !important;
   }
   .hero-image{
     background-size: 300px;
