@@ -1371,7 +1371,7 @@
     height: 45px;
   }
   .justifyContent{
-    justify-content: center;
+    justify-content: flex-end;
   }
   .form-text{
     font-size: 12px;
