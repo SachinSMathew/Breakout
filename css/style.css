@@ -22094,7 +22094,7 @@
   font-size: 15px;
   font-weight: 700;
   letter-spacing: 2.81px;
-  text-transform: uppercase;
+  text-transform: lowercase;
   margin-bottom: 22px;
 }
 
@@ -22616,9 +22616,9 @@
 /*///////////////////////
     Content_section-02
  /////////////////////*/
-/* .content-section-02 {
+.content-section-02 {
   padding: 70px 0;
-} */
+}
 
 @media (max-width: 768px) {
   .content-section-02 {
