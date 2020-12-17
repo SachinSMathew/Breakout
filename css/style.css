@@ -310,9 +310,9 @@
 }
 
 @media (max-width: 800px) {
-  .mb-d-30 {
-    margin-bottom: -30px;
-    padding: 25px;
+  .feature-area{
+    margin-left: 10px !important;
+    padding: 10px !important;
   }
 }
 
@@ -1346,7 +1346,7 @@
 }
 @media (max-width: 1279px){
   .feature-area{
-    margin-left: 3.5rem !important;
+    margin-left: 3.5rem;
   }
 }
 @media (max-width: 1380px) and (min-width: 1280px){
