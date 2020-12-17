@@ -21799,7 +21799,7 @@
 /* /////////////////////////// 
     Header Area
 //////////////////////////// */
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   .site-header {
     padding-top: 20px;
   }
