@@ -1,2 +1,4 @@
-debug.log
-*.log
+.vscode/
+.firebaserc
+firebase.json
+.firebase/hosting..cache

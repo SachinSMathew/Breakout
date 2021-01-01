@@ -2,7 +2,7 @@
 /*=====================================*/
 /*-- :::: Space Decrease :::: --*/
 /*=====================================*/
-@import url("https://fonts.googleapis.com/css?family=Manrope:400,400i,700,700i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Manrope:400,400i,700,700i,800&display=swap");
 .space-db--0 {
   margin-bottom: 0px;
 }
@@ -21723,7 +21723,7 @@ p.sm {
 }
 
 span {
-  font-size: 12px;
+  font-size: 18px;
 }
 
 .btn:focus,
