@@ -50,8 +50,9 @@ const sendMessage = event => {
    smtpJS(message);
 }
 const smtpJS = async message => {
+   var regExp = /[a-zA-Z]/g;
    document.getElementById('message').innerText = "Please wait.";
-   if (message.Number !== "" || message.Number.includes([a-z])){
+   if (message.Number !== 0 && !regExp.test(message.Number)){
        try {
            console.log(message)
        await Email.send({
