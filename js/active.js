@@ -56,7 +56,7 @@ const smtpJS = async message => {
             console.log(message)
         await Email.send({
             SecureToken : token,
-            To : "sachinsaji1999@gmail.com",
+            To : "breakout@fundfolio.in",
             From : "support@fundfolio.in",
             Subject : "Breakout leads",
             Body : `This person has a confusion on breakout: Number: ${message.Number}`

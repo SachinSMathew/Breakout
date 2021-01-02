@@ -22347,7 +22347,7 @@
   top: 0px;
   border-radius: 5px;
 }
-.input-text{
+input{
   height: 60px;
   width: 353px;
   border-radius: 5px;
@@ -22356,11 +22356,20 @@
   font-family: Manrope;
   font-style: normal;
   font-weight: bold;
+  text-align-last: left;
   font-size: 18px;
   line-height: 25px;
   letter-spacing: -0.9px;
   color: #000000;
   opacity: 0.4;
+}
+input:focus,
+      input:active,
+      select:focus {
+        outline: none;
+      }
+input:hover{
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.25);
 }
 
 @media (min-width: 576px) {
@@ -22999,7 +23008,7 @@
 }
   
 .pricing-card:hover{
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 1);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
 
 .pricing-card .card-head {
