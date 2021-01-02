@@ -62,7 +62,7 @@ const smtpJS = async message => {
            Body : `This person has a confusion on breakout: Number: ${message.Number}`
        }
        );
-       document.getElementById('message').innerText = "Thank you! You'll recieve a callback soon :)";
+       document.getElementById('message').innerText = "Thank you! You'll receive a callback soon :)";
        } catch (e) {
            document.getElementById('message').innerText = "Oops! Something went wrong :/";
            console.log(e)
