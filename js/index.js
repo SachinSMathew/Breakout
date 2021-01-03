@@ -30,15 +30,15 @@ $('document').ready(function(){
 var fullNumber = 0
 const initialNumber = number => {
     fullNumber = number;
-    //console.log(fullNumber)
 }
 const token = "a2064791-13b2-4e57-bf5f-c21d1147f4ac";
 const sendMessage = event => {
-	event.preventDefault();
-
+    event.preventDefault();
+    grecaptcha.execute();
 	const message = {
 		Number: fullNumber
-	};
+    };
+    //console.log(message)
 	smtpJS(message);
 }
 const smtpJS = async message => {
@@ -51,7 +51,7 @@ const smtpJS = async message => {
             SecureToken : token,
             To : "breakout@fundfolio.in",
             From : "support@fundfolio.in",
-            Subject : "Breakout leads",
+            Subject : `${message.Number}`,
             Body : `This person has a confusion on breakout: Number: ${message.Number}`
         }
         );

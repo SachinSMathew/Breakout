@@ -348,7 +348,8 @@
               <!-- <input class="input-text" type="tel" id="#phone" name="phone" placeholder="Your phone number"> -->
             </div>
             <div class="col-xs-12 btn-call">
-                <button class="submit-btn btn--hover-shine" >Get a call back</button>
+              <div class="g-recaptcha" data-sitekey="6LetAx8aAAAAAOOU7XNRsdRMPZaHuiEMVtUwnLY7" data-callback="onSubmit" data-size="invisible"></div>
+                <button id="submit" class="submit-btn btn--hover-shine">Get a call back</button>
             </div>
           </div>
             <div id="message" class="success-message"></div>
@@ -453,7 +454,12 @@
   <script src="./js/intlTelInput.js"></script>
   <!-- mobile -->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
 <script>
+  function onSubmit(token){
+    sendMessage(event);
+    //console.log("inside")
+  }
   var input = document.querySelector("#phone");
   var countryCode;
   var iti =  window.intlTelInput(input, {
@@ -468,7 +474,6 @@
     utilsScript: "./js/utils.js"
   });
   $("#phone").on("blur", function(){  
-    //console.log(countryCode)
     if (iti.getNumber() !== "" && !iti.getNumber().includes("+[object Object]") && (iti.isValidNumber())){
       initialNumber(iti.getNumber());  
   }
