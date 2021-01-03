@@ -468,7 +468,7 @@
     utilsScript: "./js/utils.js"
   });
   $("#phone").on("blur", function(){  
-    console.log(countryCode)
+    //console.log(countryCode)
     if (iti.getNumber() !== "" && !iti.getNumber().includes("+[object Object]") && (iti.isValidNumber())){
       initialNumber(iti.getNumber());  
   }

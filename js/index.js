@@ -27,18 +27,10 @@ $('document').ready(function(){
   
 })
 
-// //======>  Mobile Menu Activation
-// $('.main-navigation').meanmenu({
-//     meanScreenWidth: "992",
-//     meanMenuContainer: '.mobile-menu',
-//     meanMenuClose: "<i class='icon icon-simple-remove'></i>",
-//     meanMenuOpen: "<i class='icon icon-menu-34'></i>",
-//     meanExpand: "",
-// });
 var fullNumber = 0
 const initialNumber = number => {
     fullNumber = number;
-    console.log(fullNumber)
+    //console.log(fullNumber)
 }
 const token = "a2064791-13b2-4e57-bf5f-c21d1147f4ac";
 const sendMessage = event => {
