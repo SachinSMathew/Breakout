@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-3 col-xl-3 d-none d-sm-block order-lg-3 ">
                     <div class="header-btns justify-content-end">
-                        <a href="https://breakout.fundfolio.in/course/option-selling-by-sharique-samsudheen-malayalam/" class="btn btn-outlined--primary btn-sm glow-button">Enroll Now</a>
+                        <a href="#pricing" class="btn btn-outlined--primary btn-sm glow-button">Enroll Now</a>
                     </div>
                 </div>
                 <!-- Menu Block -->
@@ -63,7 +63,7 @@
             </div>
             <div class="col-lg-7 col-xl-6">
                 <div class="subscription-form">
-                  <form action="https://breakout.fundfolio.in/course/option-selling-by-sharique-samsudheen-malayalam/">
+                  <form action="#pricing">
                         <div class="form-group">
                           <button class="btn--hover-shine" >Enroll Now!</button>
                         </div>
@@ -134,7 +134,7 @@
             <p 
             style='line-height: 34px;
             color: #A4A4A4;'>The only ingredient you need to succeed in stock market.<br> Learn the strategies, tips and tricks used by <a href="https://www.youtube.com/shariquesamsudheen"><strong>Sharique Samsudheen</strong></a> to make safe, consistent profits in the market.<br><br>More importantly, we make sure that you gain the confidence needed to implement these strategies. At breakout, you are not learning just a strategy, but a skill that you can use all your life.</p>
-            <div class="content-btn"><a href="https://breakout.fundfolio.in/course/option-selling-by-sharique-samsudheen-malayalam/" class="btn btn--white">Book your seat!</a></div>
+            <div class="content-btn"><a href="#pricing" class="btn btn--white">Book your seat!</a></div>
         </div>
       </div>
       <div class="col-lg-5 col-sm-6 col-md-5 col-xl-5 col-sm-offset-2">
@@ -165,7 +165,7 @@
                     font-weight: normal; line-height: 1.5rem; text-align: left;
                     color: #787878;">Join <a href="https://www.youtube.com/shariquesamsudheen"><strong>Sharique Samsudheen</strong></a> and learn how to make
                       consistent, conservative profits every week, just like how he does.</p>
-                    <div class="content-btn"><a href="https://breakout.fundfolio.in/course/option-selling-by-sharique-samsudheen-malayalam/" class="btn btn--white">Book your seat!</a></div>
+                    <div class="content-btn"><a href="#pricing" class="btn btn--white">Book your seat!</a></div>
                 </div>
               </div>
           </div>
@@ -300,7 +300,7 @@
                                 </li>
                             </ul>
                             <div class="card-btn" style="text-align: center;">
-                                <a href="https://breakout.fundfolio.in/course/option-selling-by-sharique-samsudheen-malayalam/" class="btn btn--white btn--hover-shine">Book Your Seat!</a>
+                                <a href="https://breakout.fundfolio.in/product/option-selling-by-sharique-samsudheen-malayalam/" class="btn btn--white btn--hover-shine">Book Your Seat!</a>
                             </div>
                         </div>
                     </div>
@@ -449,7 +449,7 @@
   <script src="./plugins/meanmenu/jquery.meanmenu.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <!-- Plugins JS -->
-  <script src="./js/main.js"></script>
+  <script src="./js/index.js"></script>
   <script src="./js/intlTelInput.js"></script>
   <!-- mobile -->
 <script src="https://smtpjs.com/v3/smtp.js"></script>
@@ -469,8 +469,11 @@
   });
   $("#phone").on("blur", function(){  
     console.log(countryCode)
-    if (iti.getNumber() !== "" && !iti.getNumber().includes("+[object Object]")){
+    if (iti.getNumber() !== "" && !iti.getNumber().includes("+[object Object]") && (iti.isValidNumber())){
       initialNumber(iti.getNumber());  
+  }
+  else{
+    initialNumber(0);
   }
 });
   
